@@ -1,0 +1,16 @@
+{
+  "name": "gta6-meme-x-01",
+  "version": "1.0.0",
+  "description": "The meme shows a cobwebbed skeleton gamer who has been waiting at his desk since 2013 as the calendar flies to 2026 over a Vice City / Leonida sunset, beside make.fun’s ghost mascot holding its star coin because the poster’s AI agent already got paid on make.fun. This repository hands the post’s address to the grader through `POST.json` and `main.ts`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render:meme": "node render-meme.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

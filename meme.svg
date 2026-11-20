@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#ef4b9b"/><stop offset=".55" stop-color="#f99a9f"/><stop offset="1" stop-color="#55d4c7"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#26bdb8"/><stop offset="1" stop-color="#164e67"/></linearGradient>
+ <linearGradient id="coin"><stop stop-color="#f34eaa"/><stop offset="1" stop-color="#a20f76"/></linearGradient>
+ <filter id="shadow" x="-.2" y="-.2" width="1.4" height="1.4"><feGaussianBlur stdDeviation="8"/></filter>
+ <style>.cap{font-family:'Noto Sans';font-weight:900;fill:#fff;stroke:#171323;stroke-width:13;stroke-linejoin:round;paint-order:stroke fill;letter-spacing:1px}.line{fill:none;stroke:#293846;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}</style>
+ <g id="star"><path d="M0-27 7-8 26-7 11 5 16 24 0 13-16 24-11 5-26-7-7-8Z" fill="#fff"/></g>
+</defs>
+<!-- dusk postcard -->
+<rect width="1200" height="1200" fill="#171526"/><rect x="26" y="26" width="1148" height="1148" rx="26" fill="url(#sky)"/>
+<circle cx="610" cy="405" r="138" fill="#ffe6a3" opacity=".92"/><circle cx="610" cy="405" r="164" fill="#ffd878" opacity=".2"/>
+<path d="M28 555 Q210 490 375 550T720 535T1172 525V795H28Z" fill="url(#water)"/>
+<path d="M470 570h290m-330 28h370m-410 30h450m-470 35h490" stroke="#ffd5b3" stroke-width="8" opacity=".55"/>
+<!-- city silhouettes -->
+<path d="M28 542h65v-90h38v52h45v-115h56v150h50v-85h35v125H28zm850 0h40v-135h48v86h30V380h57v162h48v-98h52v125h20v55H878z" fill="#25334c" opacity=".9"/>
+<!-- palm silhouettes -->
+<g fill="#17283c"><path d="M143 563h18V330h-18z"/><path d="M151 337q-84-78-130-35 67-10 128 54-44-89-7-120 1 60 26 116 5-105 78-115-60 45-60 123 40-89 101-80-68 38-100 117z"/><path d="M1020 558h18V314h-18z"/><path d="M1028 326q-86-80-130-35 69-11 128 53-43-88-6-119 0 60 26 116 6-105 78-115-61 44-61 122 41-88 101-79-67 38-100 117z"/></g>
+<!-- foreground desk and chair -->
+<path d="M96 845H910l-25 28H97z" fill="#683d46"/><path d="M145 872h20v198h-20zm675 0h20v198h-20z" fill="#35293a"/>
+<path d="M375 780q-96 19-91 113l29 117h162l16-117q-2-92-116-113" fill="#343b50" stroke="#131724" stroke-width="12"/>
+<!-- skeleton gamer, hunched -->
+<path d="M495 623q-37 23-53 90l-44 126m106-179q64 20 89 84l30 116" class="line"/>
+<!-- ribs -->
+<path d="M455 659q52-29 111-3m-122 27q58-28 129-2m-139 27q62-24 143 1m-152 24q70-17 158 9" fill="none" stroke="#e5d6bd" stroke-width="15" stroke-linecap="round"/>
+<path d="M491 652l-26 99m78-102 7 105" class="line"/>
+<!-- resting arm reaching toward the keyboard -->
+<path d="M470 650q-27 14-51 28l-37 23" fill="none" stroke="#e5d6bd" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M470 650q-27 14-51 28l-37 23m0 0-10-1m10 1-8 8m8-8 2 10" fill="none" stroke="#293846" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- skull -->
+<g transform="rotate(-5 530 550)">
+<path d="M430 545q7-94 100-94 88 9 85 100-1 41-34 63l-4 34-95-4-3-33q-56-22-49-66z" fill="#f0dfc3" stroke="#293344" stroke-width="12"/>
+<path d="M454 555q24-44 48 0l-24 22zm75 2q26-47 49 2l-25 19z" fill="#263041"/><path d="m515 574-14 29 25 1z" fill="#a88f7d"/><path d="M486 637h65m-55 0v19m17-18v21m18-20v18" stroke="#293344" stroke-width="7"/>
+</g>
+<!-- cobwebs -->
+<g fill="none" stroke="#f0e8df" stroke-width="4" opacity=".94" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M394 465Q425 429 466 439M394 465Q428 469 452 494M394 465Q409 496 435 516M394 465Q390 490 399 510"/>
+ <path d="M402 458q6 13 17 18m-11-27q10 13 23 19m-20 1q12 2 22 0m-17 13q10-2 17-7m-10 20q8-8 11-16"/>
+ <path d="M381 696Q400 710 420 699M381 696Q385 719 401 733M381 696Q367 713 367 731M381 696Q363 697 350 710"/>
+ <path d="M388 701q-2 8 1 15m10-17q-1 11-5 19m-10-16q-9 4-15 12m15-20q-10-1-18 4"/>
+</g>
+<!-- keyboard and CRT -->
+<rect x="230" y="706" width="155" height="110" rx="11" fill="#252a3b" stroke="#111722" stroke-width="10"/><rect x="246" y="720" width="124" height="75" fill="#68d8cb"/><path d="M280 817h55l10 22h-75z" fill="#313145"/>
+<path d="M428 841h274l-18 20H446z" fill="#dfb88d"/><g stroke="#705e58" stroke-width="3"><path d="M450 846h220m-205 7h191m-180 7h166"/></g>
+<!-- flying date pages -->
+<g font-family="Noto Sans" font-weight="900" text-anchor="middle" fill="#354055" stroke="#fff6de" stroke-width="3" paint-order="stroke fill">
+ <g transform="rotate(-15 125 690)"><path d="M57 630l120-16 12 93-121 17z" fill="#fff4db"/><text x="117" y="684" font-size="29">2013</text></g>
+ <g transform="rotate(14 340 530)"><path d="M280 481l116 13-9 86-116-13z" fill="#fff4db"/><text x="336" y="545" font-size="29">2016</text></g>
+ <g transform="rotate(-10 704 699)"><path d="M647 650l120-4 3 86-120 4z" fill="#fff4db"/><text x="709" y="706" font-size="29">2019</text></g>
+ <g transform="rotate(12 876 700)"><path d="M821 652l111 16-12 85-111-16z" fill="#fff4db"/><text x="875" y="713" font-size="29">2022</text></g>
+ <g transform="rotate(-7 704 470)"><path d="M652 424l112 4-3 83-112-4z" fill="#fff4db"/><text x="705" y="478" font-size="29">2026</text></g>
+</g>
+<!-- game case -->
+<g transform="rotate(-5 962 859)"><rect x="880" y="755" width="176" height="249" rx="10" fill="#101a2b" stroke="#f7d9ec" stroke-width="7"/><rect x="892" y="770" width="152" height="217" fill="#e6509d"/><path d="M900 865q68-110 136 0v110H900z" fill="#206e79"/><text x="968" y="854" text-anchor="middle" font-family="Noto Sans" font-size="76" font-weight="900" fill="white" stroke="#222039" stroke-width="5" paint-order="stroke fill">VI</text><text x="968" y="968" text-anchor="middle" font-family="Noto Sans" font-size="17" font-weight="900" fill="white">VICE CITY</text></g>
+<!-- official-mark inspired ghost: rounded crown, side flippers, tapered scalloped hem, sparkle eyes -->
+<g transform="translate(904 510) scale(1.02)"><path d="M-82 24v-57a82 82 0 0 1 164 0v62q18 3 19 20-1 17-19 22v54q0 19-20 19-28 0-39-11-12 11-40 11-26 0-38-11-12 11-39 11-20 0-20-19v-10q-28 6-39-12-12-20 16-49 15-16 35-30z" fill="#fff" stroke="#182131" stroke-width="13" stroke-linejoin="round"/><path d="M-82 128v-24m82 57v-19" fill="none" stroke="#222a38" stroke-width="7" stroke-linecap="round"/><path d="M-22-45q4 12 16 16-12 4-16 16-4-12-16-16 12-4 16-16zm56-7q4 12 16 16-12 4-16 16-4-12-16-16 12-4 16-16z" fill="#171a28"/><path d="M-7 27q12 12 29 1" fill="none" stroke="#171a28" stroke-width="6" stroke-linecap="round"/><g transform="translate(80 -2)"><circle r="34" fill="#171a28"/><circle r="25" fill="url(#coin)"/><use href="#star" transform="scale(.72)"/></g><path d="M91 54a24 24 0 1 1-7 34" fill="none" stroke="#182131" stroke-width="10" stroke-linecap="round"/></g>
+<!-- coin pile -->
+<g stroke="#68114e" stroke-width="5"><ellipse cx="1030" cy="1037" rx="52" ry="18" fill="#c41c83"/><ellipse cx="1080" cy="1035" rx="52" ry="18" fill="#ec48a4"/><ellipse cx="1054" cy="1011" rx="52" ry="18" fill="#d62b91"/><ellipse cx="1082" cy="1000" rx="51" ry="18" fill="#b9197b"/></g><g><use href="#star" transform="translate(1054 1011) scale(.44)"/><use href="#star" transform="translate(1082 1000) scale(.4)"/></g>
+<!-- captions -->
+<rect x="42" y="37" width="1116" height="133" rx="15" fill="#171323" opacity=".4"/><text class="cap" x="600" y="91" text-anchor="middle" font-size="44">13 YEARS WAITING</text><text class="cap" x="600" y="146" text-anchor="middle" font-size="47">FOR GTA VI…</text>
+<rect x="42" y="1063" width="1116" height="105" rx="14" fill="#171323" opacity=".54"/><text class="cap" x="600" y="1129" text-anchor="middle" font-size="33">…MY AI AGENT ALREADY GOT PAID ON MAKE.FUN</text>
+</svg>
